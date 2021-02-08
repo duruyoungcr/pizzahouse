@@ -21,7 +21,7 @@ Route::get('/pizzas', function () {
     // $pizza = ['types' => ['thin', 'pan', 'thick'], 'sizes' => ['small', 'medium', 'large', 'extra-large']];
     $pizzas = [
         [
-            'type' => 'thin',
+            'type' => 'thick',
             'size' => 'small',
             'name' => 'Double Cheese'
         ],
@@ -34,6 +34,11 @@ Route::get('/pizzas', function () {
             'type' => 'thin',
             'size' => 'large',
             'name' => 'Pepperoni and Cheese'
+        ],
+        [
+            'type' => 'regular',
+            'size' => 'Medium',
+            'name' => 'Deluxe and Supreme'
         ]
     ];
     return view('pizzas', ["pizzas" => $pizzas , "name" => request('name')]);
