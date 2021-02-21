@@ -17,7 +17,7 @@
     <div class="content">
         <img src="/assets/img/pizza-house.jpg" alt="pizza house" class="logo">
         <div class="title m-b-md">
-            pizza house
+            Pizza House
         </div>
         
     </div>
